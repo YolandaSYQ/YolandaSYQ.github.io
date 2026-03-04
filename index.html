@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* 头部样式 */
+        header {
+            background: #2c3e50;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 20px 0;
+            font-size: 1.2em;
+            color: #bdc3c7;
+        }
+        /* 卡片区域 */
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 10px;
+        }
+        /* 链接和按钮 */
+        a {
+            color: #e8491d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #c0392b;
+        }
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>你好，我是 [你的名字] 👋</h1>
+            <p>前端开发者 / 设计师 / 热爱技术</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 关于我 -->
+        <section class="card">
+            <h2>关于我</h2>
+            <p>欢迎来到我的个人主页！我是一名热爱编程和设计的开发者。我喜欢学习新技术，并且乐于将我的想法通过代码变成现实。</p>
+            <p>目前我正在学习 HTML, CSS, JavaScript 以及如何使用 GitHub 搭建网站。</p>
+        </section>
+
+        <!-- 我的项目 -->
+        <section class="card">
+            <h2>我的项目</h2>
+            <ul>
+                <li><strong>个人博客：</strong> 记录我的学习笔记和生活日常。</li>
+                <li><strong>天气小程序：</strong> 使用 JavaScript 调用 API 获取实时天气。</li>
+                <li><strong>To-Do List：</strong> 一个极简的待办事项管理工具。</li>
+            </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="card">
+            <h2>联系我</h2>
+            <p>如果你想和我交流，可以通过以下方式找到我：</p>
+            <ul>
+                <li>📧 邮箱：<a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>🐙 GitHub：<a href="https://github.com/你的用户名" target="_blank">@你的用户名</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 [你的名字]. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
